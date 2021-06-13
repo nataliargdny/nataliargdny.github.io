@@ -44,7 +44,6 @@ Aunque también tenemos la opción de “Story” en la cual se narran todos los
 Tras haberse reproducido la introducción del juego y del menú, nos encontramos ante dos opciones a escoger junto a un caldero:
 
 - “ADVENTURE”: Pulsando esta opción, iniciarás el modo aventura del juego, la parte más relevante. Pues el protagonista deberá de descifrar una serie de acertijos para devolver la vida a su aldea y a sus habitantes. Una vez pulsada la opción, aparece la escena en la cual atacan al pueblo. En la siguiente escena aparece un misterioso halo de luz, un ojo demoníaco  que le revela su misión. En la tercera escena es donde tiene lugar el primer acertijo basado en un puzzle, pues debemos de encajar correctamente todas las piezas que conforman una especie de cabra, siempre y cuando no muramos en el intento, ya que el marcador situado en el lado izquierdo inferior nos descontará vidas si fallamos encajando las piezas. En el caso de obtener la victoria podremos pasar al siguiente enigma, en el cual debemos de encontrar tres objetos en una cueva para pasar la prueba, y al igual que en el anterior acertijo, nos descontarán vidas si pulsamos la calavera o calaveras incorrectas. Si en cualquiera de los enigmas se nos acaban las vidas, el juego nos conducirá a la escena de muerte y terminará la partida. Pero si en el caso contrario, vencemos. Siempre aparecerá el botón de derecha e izquierda para pasar a los siguientes retos.
-
 Tras haber atravesado la cueva, llegaremos a un bosque repleto de oscuridad en el que nos topamos con un monstruo que nos anuncia nuestra victoria. Pasamos a otra escena en la que nuestro candelabro comienza a desprender una niebla azul persistente que se va extendiendo por el bosque y que nos conduce al pueblo de nuestro personaje, pues le hemos devuelto la vida al pueblo. Finalmente con el talismán rojo protegemos la aldea y termina el juego y da comienzo a los créditos y para volver a jugar deberemos de reiniciar el juego.
 
 
@@ -68,9 +67,12 @@ Esquema de navegación desde la introducción hasta la parte final que sería el
 # 3. METODOLOGÍA
 
 
-ETAPA 1: Ideación del proyecto.Investigación de campo (propuestas inspiradoras del proyecto)
 
-Libros de aventuras:
+### ETAPA 1: Ideación del proyecto
+
+**Investigación de campo**(propuestas inspiradoras del proyecto)
+
+*Libros de aventuras:*
 
 - “DRAGÓN” De Ray Bradbury:  
 
@@ -90,7 +92,7 @@ https://www.amazon.es/Lord-Rings-J-R-Tolkien/dp/0618640150
 
 Me inspiró en gran medida para la realización de este juego, pues pensé que sería muy interesante un juego de aventura, fantasía, magia y misterio, repleto de seres mágicos.
 
-SERIES:
+*SERIES:*
 
 https://www.cartoonnetwork.es/show/mas-alla-del-jardin
       
@@ -98,7 +100,7 @@ Fue una gran referencia para escoger el estilo de animación para el desarrollo 
 
 
 
-Motivación de la propuesta
+**Motivación de la propuesta**
 
 Lo cierto es que ha sido el primer juego que he diseñado, y pensé que sería bastante interesante incorporar todo aquello que me inspira en mi día a día para desarrollar todos mis dibujos, bocetos y proyectos de la facultad: la fantasía, la magia, las leyendas y los mitos de diversas culturas.
 Por ello un día se me ocurrió un microrrelato y decidí plasmarlo rápidamente en mi sketchbook o cuaderno de campo, pues visualizaba mentalmente cómo iban a ir todas las escenas. Y poco a poco fui desarrollando todos los escenarios con la ayuda de mi tableta gráfica y dibujos que iba confeccionando a lápiz y con múltiples técnicas como las acuarelas o los lápices de colores. Y con la fusión de ambos métodos conseguí todos mis escenarios. 
@@ -108,14 +110,16 @@ Pienso que ha sido una experiencia compleja y muy gratificante, pues al “darle
 Al desarrollar este juego, pensé en mi infancia, ya que estuvo marcada por juegos, películas y series de este tipo, y pensé que sería una buena opción para niños con las mismas inquietudes que tenía yo. De este modo decidí crear una aventura cuya historia no fuese tan extensa como la de algunos videojuegos, sino que fuera interesante y dejase numerosas incógnitas a descubrir, es decir, dinámica). Y como está focalizada principalmente en niños, las vidas que aporto son un tanto ajustadas, por lo que incita a seguir jugando para descubrir el final que nos espera. 
 
 
-PÚBLICO/ AUDIENCIA
 
-Ambientado para todas las edades, pero principalmente hacia niños de 8 a 11 años.
+**PÚBLICO/ AUDIENCIA**
+
+- Ambientado para todas las edades, pero principalmente hacia niños de 8 a 11 años.
 
 
 
 
-ETAPA 2: Desarrollo/ actividades realizadas
+
+### ETAPA 2: Desarrollo/ actividades realizadas
 
 
 1.- PASAR ENTRE ESCENAS:
@@ -178,15 +182,14 @@ La idea de esta parte es llegar a la escena de zonas calientes falsas y solo hab
 
 
 
-6.- CRÉDITOS:
+#### 6.- CRÉDITOS:
 
 Para mostrar los créditos iremos aumentando la componente “Y” de las texboxes para que vayan bajando por la pantalla.
 Una vez salgan de la zona visible, restauramos el valor de la componente “Y'' y cambiamos el texto de las textboxes.
 
 
 
-
-ETAPA 3: Problemas identificados
+### ETAPA 3: Problemas identificados
 
 Uno de los problemas más significativos en el proceso del juego, ha sido el sonido del inicio pues no se reproduce en todos los navegadores, como ocurre en Google Chrome (no lo reproduce ) y en Microsoft Edge ( en cambio este sí ) y no lo he podido reparar pues es algo del navegador a la hora de ejecutar el HTML.
 También tuve problemas a la hora de dividir los archivos de la historia, pues en Hippani pesaban demasiado y debí de separarlos en dos archivos diferentes y cada uno creó un HTML, donde el HTML de la historia estaba enlazado al HTML principal.
@@ -195,8 +198,7 @@ Otro de los problemas más curiosos es el cambio de tipografía, pues cambié de
 
 
 
-
-4.- CONCLUSIONES
+# 4.- CONCLUSIONES
 
 Sinceramente ha supuesto un reto personal, pues me ha llevado un mes de trabajo, teniendo en cuenta la planificación de la facultad. Y he de decir que me hubiera gustado dedicarle más tiempo a algunas partes para que quedara todo más fluido, sobre todo en la unión de las películas. A pesar de esto, pienso que he realizado un buen proyecto donde todos los escenarios han sido elaborados a mano y cuya historia es totalmente original, sin basarme en una historia o conjunto de historias, haciendo de este proyecto un juego único.
 
@@ -205,9 +207,10 @@ Sinceramente ha supuesto un reto personal, pues me ha llevado un mes de trabajo,
 
 
 
-5.- REFERENCIAS
 
-Música: 
+# 5.- REFERENCIAS
+
+**Música:**
 
 https://freesound.org/
 
@@ -215,27 +218,34 @@ http://recursostic.educacion.es/bancoimagenes/web/
 
 https://www.elongsound.com/
 
+**IMÁGENES:** NATALIA RAMÍREZ GARCÍA
 
-IMÁGENES: NATALIA RAMÍREZ GARCÍA
+**TIPOGRAFÍA:** Former Broston, Vintages y Palatino Linotype
+
+**Herramientas utilizadas:**
+
+- Hippani Animator 5.1
+- Photoshop 2020
+- Audacity (edición de audio)
 
 
-TIPOGRAFÍA: Former Broston, Vintages y Palatino Linotype
 
-
-
-Herramientas utilizadas:
-
-Hippani Animator 5.1
-Photoshop 2020
-Audacity (edición de audio)
 
 https://creativecommons.org/licenses/?lang=es
 
-JUNIO 2021
+***JUNIO 2021
 
-Comentarios:
+
+
+
+
+
+
+
+### Comentarios:
 
 Ejemplos de otros años: https://github.com/mgea/interart
+
 https://github.com/SandraDomz/sandradomz.github.io
  
 
