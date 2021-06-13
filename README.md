@@ -1,73 +1,71 @@
-# nataliargdny.github.io
-Repositorio del juego Shadowlightless
-SHADOWLIGHTLESS
-
+## SHADOWLIGHTLESS
 Proyecto de Creación Multimedia Interactiva de la Facultad de Bellas Artes de la Universidad de Granada.
 
-DATOS
 
-Título: “ Shadowlightless”
 
-Web:  https://nataliargdny.github.io/
 
-Autor: Ramírez García Natalia
+# Datos 
 
-Resumen: “ Shadowlightless”, un juego de aventuras, leyendas y misterio en el cual un joven debe de salvar a su aldea que ha sido devastada, para ello deberá de superar una serie de tenebrosos desafíos. 
+
+
+**Titulo** : “ Shadowlightless”
+
+**Web:**   https://nataliargdny.github.io/ 
+**Autor**: Ramírez García Natalia
+
+**Resumen**: “ Shadowlightless”, un juego de aventuras, leyendas y misterio en el cual un joven debe de salvar a su aldea que ha sido devastada, para ello deberá de superar una serie de tenebrosos desafíos. 
 Aunque también tenemos la opción de “Story” en la cual se narran todos los detalles sobre la historia de nuestro valeroso protagonista.
 
+**Estilo/ Género**: Aventura gráfica y novela visual
 
-Estilo/ Género: Aventura gráfica y novela visual
+**Logotipo**: 
 
+![Logotype](Captura.png)
 
-Logotipo:    (foto)
+**Resolución**: 1367 x 912 px
 
+**Probado en** : Google Chrome ( en este navegador no se reproducen los sonidos de la primera escena, en cambio en Microsoft sí que se reproducen), Microsoft Edge y Móviles diversos, por lo general Android.
 
+**Tamaño del proyecto:** 16,4 MB
 
-Resolución: 1367 x 912 px
+**Fecha:** 12/06/2021
 
-Probado en : Google Chrome ( en este navegador no se reproducen los sonidos de la primera escena, en cambio en Microsoft sí que se reproducen), Microsoft Edge y Móviles diversos, por lo general Android.
+**Licencia:** Este proyecto tiene una Licencia MIT License
 
-Tamaño del proyecto: 16,4 MB
+**Medios:**
 
-Fecha: 12/06/2021
-
-Licencia: Este proyecto tiene una Licencia MIT License
-
-
-Medios:
-Github: https://nataliargdny.github.io/
+- Github: https://nataliargdny.github.io/
 
 
 
-2. MEMORIA DEL PROYECTO
+# 2. MEMORIA DEL PROYECTO
 
-2.1.- Storyboard:
-
+### 2.1.- Storyboard:
 Tras haberse reproducido la introducción del juego y del menú, nos encontramos ante dos opciones a escoger junto a un caldero:
 
-
-“ADVENTURE”: Pulsando esta opción, iniciarás el modo aventura del juego, la parte más relevante. Pues el protagonista deberá de descifrar una serie de acertijos para devolver la vida a su aldea y a sus habitantes. Una vez pulsada la opción, aparece la escena en la cual atacan al pueblo. En la siguiente escena aparece un misterioso halo de luz, un ojo demoníaco  que le revela su misión. En la tercera escena es donde tiene lugar el primer acertijo basado en un puzzle, pues debemos de encajar correctamente todas las piezas que conforman una especie de cabra, siempre y cuando no muramos en el intento, ya que el marcador situado en el lado izquierdo inferior nos descontará vidas si fallamos encajando las piezas. En el caso de obtener la victoria podremos pasar al siguiente enigma, en el cual debemos de encontrar tres objetos en una cueva para pasar la prueba, y al igual que en el anterior acertijo, nos descontarán vidas si pulsamos la calavera o calaveras incorrectas. Si en cualquiera de los enigmas se nos acaban las vidas, el juego nos conducirá a la escena de muerte y terminará la partida. Pero si en el caso contrario, vencemos. Siempre aparecerá el botón de derecha e izquierda para pasar a los siguientes retos.
+- “ADVENTURE”: Pulsando esta opción, iniciarás el modo aventura del juego, la parte más relevante. Pues el protagonista deberá de descifrar una serie de acertijos para devolver la vida a su aldea y a sus habitantes. Una vez pulsada la opción, aparece la escena en la cual atacan al pueblo. En la siguiente escena aparece un misterioso halo de luz, un ojo demoníaco  que le revela su misión. En la tercera escena es donde tiene lugar el primer acertijo basado en un puzzle, pues debemos de encajar correctamente todas las piezas que conforman una especie de cabra, siempre y cuando no muramos en el intento, ya que el marcador situado en el lado izquierdo inferior nos descontará vidas si fallamos encajando las piezas. En el caso de obtener la victoria podremos pasar al siguiente enigma, en el cual debemos de encontrar tres objetos en una cueva para pasar la prueba, y al igual que en el anterior acertijo, nos descontarán vidas si pulsamos la calavera o calaveras incorrectas. Si en cualquiera de los enigmas se nos acaban las vidas, el juego nos conducirá a la escena de muerte y terminará la partida. Pero si en el caso contrario, vencemos. Siempre aparecerá el botón de derecha e izquierda para pasar a los siguientes retos.
 
 Tras haber atravesado la cueva, llegaremos a un bosque repleto de oscuridad en el que nos topamos con un monstruo que nos anuncia nuestra victoria. Pasamos a otra escena en la que nuestro candelabro comienza a desprender una niebla azul persistente que se va extendiendo por el bosque y que nos conduce al pueblo de nuestro personaje, pues le hemos devuelto la vida al pueblo. Finalmente con el talismán rojo protegemos la aldea y termina el juego y da comienzo a los créditos y para volver a jugar deberemos de reiniciar el juego.
 
 
-“ STORY”: En esta opción descubriremos todas las claves e incertidumbres que nos genera el juego. Pues nos cuenta toda la historia de los objetos, quienes atacan a la villa, quien es en realidad el protagonista y cuál es el peligro al que se enfrenta.
+- “ STORY”: En esta opción descubriremos todas las claves e incertidumbres que nos genera el juego. Pues nos cuenta toda la historia de los objetos, quienes atacan a la villa, quien es en realidad el protagonista y cuál es el peligro al que se enfrenta.
 En primer lugar tenemos la escena del cementerio que inicia el modo historia. Posteriormente pasamos automáticamente a la escena de lava que nos cuenta de dónde surge esta guerra. En la tercera escena nos muestra al mago luchando contra una sombra o demonio. En la escena número cuatro aparece la torre donde vive el mago, que más tarde, en la quinta escena, nos indica que vayamos a la cueva “ Go to the cavern” en la cual hallamos los objetos mágicos donde nos cuentan las propiedades de cada uno de ellos. Finalmente accedemos a los créditos y deberemos de reiniciar el juego para acceder a otras opciones como el caldero.
 Otro detalle que tenemos que destacar es el volúmen del juego, pues en la parte superior tenemos un slider rojo con dos calaveras que nos indicarán como bajar o subir el sonido.
 CALDERO o SKETCHBOOK:  Este objeto se encuentra en el menú del juego y nos conducirá a los bocetos, sketches, realizados para la creación de la aventura gráfica. Son un total de 10 escenas que nos muestran tanto el proceso de los personajes como el de los fondos y tras su finalización nos conducirá al menú.
 
 
-2.2. Esquema de navegación
+### 2.2. Esquema de navegación
 
 Esquema de navegación desde la introducción hasta la parte final que sería el sketchbook
 
-
-(fotoç)
-
+![SketchBook](sketchbook.png)
 
 
 
-3. METODOLOGÍA
+
+
+
+# 3. METODOLOGÍA
 
 
 ETAPA 1: Ideación del proyecto.Investigación de campo (propuestas inspiradoras del proyecto)
