@@ -154,9 +154,7 @@ Usaremos las siguientes variables y arrays para hacer funcionar el juego de la c
 
 - pulsadaAhora: Variable booleana que nos ayuda a saber si hay alguna pieza seleccionada en este momento.
 
-
-
-#### 4.- VIDAS: Variable inicialmente establecida a 5 que, con cada fallo al colocar una pieza irá disminuyendo. Cuando la variable llegue a 0 viajaremos directamente a la Escena de Muerte usando la orden GotoSceneName(Escena).
+- VIDAS: Variable inicialmente establecida a 5 que, con cada fallo al colocar una pieza irá disminuyendo. Cuando la variable llegue a 0 viajaremos directamente a la Escena de Muerte usando la orden GotoSceneName(Escena).
 
 También crearemos la función restaurarPiezas() que comprobará cada una de las posiciones del array piezasCorrectas y, para todas aquellas posiciones que estén a false, pondremos la misma posición del array piezasSeleccionadas a “false”. Esto nos ayuda a deseleccionar todas las piezas cuando fallemos a la hora de colocar una.
 
@@ -167,7 +165,7 @@ Por cada pieza colocada correctamente aumentará en uno la variable numeroCorrec
 
 
 
-#### 5.- CUEVA:
+#### 4.- CUEVA:
 
 Usaremos las siguientes variables:
 
@@ -183,7 +181,7 @@ La idea de esta parte es llegar a la escena de zonas calientes falsas y solo hab
 
 
 
-#### 6.- CRÉDITOS:
+#### 5.- CRÉDITOS:
 
 Para mostrar los créditos iremos aumentando la componente “Y” de las texboxes para que vayan bajando por la pantalla.
 Una vez salgan de la zona visible, restauramos el valor de la componente “Y'' y cambiamos el texto de las textboxes.
