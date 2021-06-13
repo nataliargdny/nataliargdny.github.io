@@ -130,13 +130,13 @@ Para navegar entre escenas usaremos un botón que ejecutará la siguiente orden 
 
 #### 2.- MÚSICA:
 
-Para la música usaremos los fotogramas de scripts de cada escena y cuando queramos iniciar un sonido usaremos la orden: SoundPlay(sonido,bucle)
+- Para la música usaremos los fotogramas de scripts de cada escena y cuando queramos iniciar un sonido usaremos la orden: SoundPlay(sonido,bucle)
 
-Para parar el sonido usaremos:  SoundStop(sonido)
+- Para parar el sonido usaremos:  SoundStop(sonido)
 
-Para modificar el volumen del sonido usaremos:  SoundSetVolume (sonido,volumen)
+- Para modificar el volumen del sonido usaremos:  SoundSetVolume (sonido,volumen)
 
-Y finalmente,combinando las anteriores y ubicándolas en los fotogramas que correspondan conseguiremos un efecto de sonido envolvente.
+- Y finalmente,combinando las anteriores y ubicándolas en los fotogramas que correspondan conseguiremos un efecto de sonido envolvente.
 
 
 
@@ -144,14 +144,15 @@ Y finalmente,combinando las anteriores y ubicándolas en los fotogramas que corr
 
 Usaremos las siguientes variables y arrays para hacer funcionar el juego de la cabra:
 
-. todasCorrectas: Variable booleana que indica si todas las cabras están correctamente colocadas. Inicialmente “false''.
+- todasCorrectas: Variable booleana que indica si todas las cabras están correctamente colocadas. Inicialmente “false''.
 
-. numeroCorrectas: Variable que lleva un conteo del número de piezas correctamente colocadas. Inicialmente 0
+- numeroCorrectas: Variable que lleva un conteo del número de piezas correctamente colocadas. Inicialmente 0
 
-. piezasCorrectas: Array de booleanos con tantas posiciones como piezas tengamos. Cuando coloquemos una pieza en su posición correcta modificaremos la posición correspondiente de este array a “true”.
+- piezasCorrectas: Array de booleanos con tantas posiciones como piezas tengamos. Cuando coloquemos una pieza en su posición correcta modificaremos la posición correspondiente de este array a “true”.
+
 - piezasSeleccionadas: Array de booleanos con tantas posiciones como piezas tengamos. Una vez seleccionemos una pieza ponemos su posición correspondiente de este array a true.
 
-. pulsadaAhora: Variable booleana que nos ayuda a saber si hay alguna pieza seleccionada en este momento.
+- pulsadaAhora: Variable booleana que nos ayuda a saber si hay alguna pieza seleccionada en este momento.
 
 
 
