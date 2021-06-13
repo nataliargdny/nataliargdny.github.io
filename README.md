@@ -43,11 +43,11 @@ Aunque también tenemos la opción de “Story” en la cual se narran todos los
 ### 2.1.- Storyboard:
 Tras haberse reproducido la introducción del juego y del menú, nos encontramos ante dos opciones a escoger junto a un caldero:
 
-- “ADVENTURE”: Pulsando esta opción, iniciarás el modo aventura del juego, la parte más relevante. Pues el protagonista deberá de descifrar una serie de acertijos para devolver la vida a su aldea y a sus habitantes. Una vez pulsada la opción, aparece la escena en la cual atacan al pueblo. En la siguiente escena aparece un misterioso halo de luz, un ojo demoníaco  que le revela su misión. En la tercera escena es donde tiene lugar el primer acertijo basado en un puzzle, pues debemos de encajar correctamente todas las piezas que conforman una especie de cabra, siempre y cuando no muramos en el intento, ya que el marcador situado en el lado izquierdo inferior nos descontará vidas si fallamos encajando las piezas. En el caso de obtener la victoria podremos pasar al siguiente enigma, en el cual debemos de encontrar tres objetos en una cueva para pasar la prueba, y al igual que en el anterior acertijo, nos descontarán vidas si pulsamos la calavera o calaveras incorrectas. Si en cualquiera de los enigmas se nos acaban las vidas, el juego nos conducirá a la escena de muerte y terminará la partida. Pero si en el caso contrario, vencemos. Siempre aparecerá el botón de derecha e izquierda para pasar a los siguientes retos.
+##### - “ADVENTURE”: Pulsando esta opción, iniciarás el modo aventura del juego, la parte más relevante. Pues el protagonista deberá de descifrar una serie de acertijos para devolver la vida a su aldea y a sus habitantes. Una vez pulsada la opción, aparece la escena en la cual atacan al pueblo. En la siguiente escena aparece un misterioso halo de luz, un ojo demoníaco  que le revela su misión. En la tercera escena es donde tiene lugar el primer acertijo basado en un puzzle, pues debemos de encajar correctamente todas las piezas que conforman una especie de cabra, siempre y cuando no muramos en el intento, ya que el marcador situado en el lado izquierdo inferior nos descontará vidas si fallamos encajando las piezas. En el caso de obtener la victoria podremos pasar al siguiente enigma, en el cual debemos de encontrar tres objetos en una cueva para pasar la prueba, y al igual que en el anterior acertijo, nos descontarán vidas si pulsamos la calavera o calaveras incorrectas. Si en cualquiera de los enigmas se nos acaban las vidas, el juego nos conducirá a la escena de muerte y terminará la partida. Pero si en el caso contrario, vencemos. Siempre aparecerá el botón de derecha e izquierda para pasar a los siguientes retos.
 Tras haber atravesado la cueva, llegaremos a un bosque repleto de oscuridad en el que nos topamos con un monstruo que nos anuncia nuestra victoria. Pasamos a otra escena en la que nuestro candelabro comienza a desprender una niebla azul persistente que se va extendiendo por el bosque y que nos conduce al pueblo de nuestro personaje, pues le hemos devuelto la vida al pueblo. Finalmente con el talismán rojo protegemos la aldea y termina el juego y da comienzo a los créditos y para volver a jugar deberemos de reiniciar el juego.
 
 
-- “ STORY”: En esta opción descubriremos todas las claves e incertidumbres que nos genera el juego. Pues nos cuenta toda la historia de los objetos, quienes atacan a la villa, quien es en realidad el protagonista y cuál es el peligro al que se enfrenta.
+##### - “ STORY”: En esta opción descubriremos todas las claves e incertidumbres que nos genera el juego. Pues nos cuenta toda la historia de los objetos, quienes atacan a la villa, quien es en realidad el protagonista y cuál es el peligro al que se enfrenta.
 En primer lugar tenemos la escena del cementerio que inicia el modo historia. Posteriormente pasamos automáticamente a la escena de lava que nos cuenta de dónde surge esta guerra. En la tercera escena nos muestra al mago luchando contra una sombra o demonio. En la escena número cuatro aparece la torre donde vive el mago, que más tarde, en la quinta escena, nos indica que vayamos a la cueva “ Go to the cavern” en la cual hallamos los objetos mágicos donde nos cuentan las propiedades de cada uno de ellos. Finalmente accedemos a los créditos y deberemos de reiniciar el juego para acceder a otras opciones como el caldero.
 Otro detalle que tenemos que destacar es el volúmen del juego, pues en la parte superior tenemos un slider rojo con dos calaveras que nos indicarán como bajar o subir el sonido.
 CALDERO o SKETCHBOOK:  Este objeto se encuentra en el menú del juego y nos conducirá a los bocetos, sketches, realizados para la creación de la aventura gráfica. Son un total de 10 escenas que nos muestran tanto el proceso de los personajes como el de los fondos y tras su finalización nos conducirá al menú.
@@ -122,13 +122,13 @@ Al desarrollar este juego, pensé en mi infancia, ya que estuvo marcada por jueg
 ### ETAPA 2: Desarrollo/ actividades realizadas
 
 
-1.- PASAR ENTRE ESCENAS:
+#### 1.- PASAR ENTRE ESCENAS:
 
 Para navegar entre escenas usaremos un botón que ejecutará la siguiente orden al pulsarlo -> SceneNext();
 
 
 
-2.- MÚSICA:
+#### 2.- MÚSICA:
 
 Para la música usaremos los fotogramas de scripts de cada escena y cuando queramos iniciar un sonido usaremos la orden: SoundPlay(sonido,bucle)
 
@@ -140,7 +140,7 @@ Y finalmente,combinando las anteriores y ubicándolas en los fotogramas que corr
 
 
 
-3.- ACERTIJO DE LA PIEDRA (cabra):
+#### 3.- ACERTIJO DE LA PIEDRA (cabra):
 
 Usaremos las siguientes variables y arrays para hacer funcionar el juego de la cabra:
 
@@ -155,7 +155,7 @@ Usaremos las siguientes variables y arrays para hacer funcionar el juego de la c
 
 
 
-4.- VIDAS: Variable inicialmente establecida a 5 que, con cada fallo al colocar una pieza irá disminuyendo. Cuando la variable llegue a 0 viajaremos directamente a la Escena de Muerte usando la orden GotoSceneName(Escena).
+#### 4.- VIDAS: Variable inicialmente establecida a 5 que, con cada fallo al colocar una pieza irá disminuyendo. Cuando la variable llegue a 0 viajaremos directamente a la Escena de Muerte usando la orden GotoSceneName(Escena).
 
 También crearemos la función restaurarPiezas() que comprobará cada una de las posiciones del array piezasCorrectas y, para todas aquellas posiciones que estén a false, pondremos la misma posición del array piezasSeleccionadas a “false”. Esto nos ayuda a deseleccionar todas las piezas cuando fallemos a la hora de colocar una.
 
@@ -166,7 +166,7 @@ Por cada pieza colocada correctamente aumentará en uno la variable numeroCorrec
 
 
 
-5.- CUEVA:
+#### 5.- CUEVA:
 
 Usaremos las siguientes variables:
 
