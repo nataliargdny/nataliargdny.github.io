@@ -1,5 +1,5 @@
 ## SHADOWLIGHTLESS
-Proyecto de Creación Multimedia Interactiva de la Facultad de Bellas Artes de la Universidad de Granada.
+*Proyecto de Creación Multimedia Interactiva de la Facultad de Bellas Artes de la Universidad de Granada.*
 
 
 
@@ -8,12 +8,12 @@ Proyecto de Creación Multimedia Interactiva de la Facultad de Bellas Artes de l
 
 
 
-**Titulo** : “ Shadowlightless”
+**Titulo** : “Shadowlightless”
 
 **Web:**   https://nataliargdny.github.io/ 
 **Autor**: Ramírez García Natalia
 
-**Resumen**: “ Shadowlightless”, un juego de aventuras, leyendas y misterio en el cual un joven debe de salvar a su aldea que ha sido devastada, para ello deberá de superar una serie de tenebrosos desafíos. 
+**Resumen**: “Shadowlightless”, un juego de aventuras, leyendas y misterio en el cual un joven debe de salvar a su aldea que ha sido devastada, para ello deberá de superar una serie de tenebrosos desafíos. 
 Aunque también tenemos la opción de “Story” en la cual se narran todos los detalles sobre la historia de nuestro valeroso protagonista.
 
 **Estilo/ Género**: Aventura gráfica y novela visual
