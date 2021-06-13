@@ -171,13 +171,13 @@ Por cada pieza colocada correctamente aumentará en uno la variable numeroCorrec
 
 Usaremos las siguientes variables:
 
-. calaveraEncontrada. Booleano que indica si la calvera ha sido encontrada.
+- calaveraEncontrada. Booleano que indica si la calvera ha sido encontrada.
 
-. candelabroEncontrado. Booleano que indica si el candelabro ha sido encontrado.
+- candelabroEncontrado. Booleano que indica si el candelabro ha sido encontrado.
 
-. diamanteEncontrado. Booleano que indica si el diamante ha sido encontrado.
+- diamanteEncontrado. Booleano que indica si el diamante ha sido encontrado.
 
-. objetosEncontrados. Variable que lleva un conteo del número de objetos encontrados. Inicialmente a 0.
+- objetosEncontrados. Variable que lleva un conteo del número de objetos encontrados. Inicialmente a 0.
 
 La idea de esta parte es llegar a la escena de zonas calientes falsas y solo habrá 3 correctas. Por cada correcta seleccionada irá aumentando la variable objetosEncontrados. Cuando esta variable llegue a 3 usaremos la orden Play() para que la timeline siga avanzando. Y cada vez que se seleccione una zona caliente falsa, el número de vidas irá decreciendo.
 
